@@ -1,0 +1,22 @@
+.subscribe-form {
+    display: flex;
+
+    @include r($sm) {
+        justify-content: center;
+    }
+
+    &__input {
+        padding: 12px 15px;
+        width: 100%;
+        max-width: 170px;
+        border: none;
+        background-color: rgba($bg, 0.2);
+
+        &::placeholder {
+            font-family: $dm-sans;
+            font-weight: 400;
+            font-size: 12px;
+            color: $blue-500;
+        }
+    }
+}

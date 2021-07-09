@@ -1,0 +1,28 @@
+@@include('parts/_top.html', {
+    title: "Glee"
+})
+@@include('parts/_header.html')
+<main>
+    <h1 class="visually-hidden">Glee - best furniture store</h1>
+
+    @@include('parts/index/_hero.html')
+
+    @@include('parts/index/_advantages.html')
+
+    @@include('parts/index/_products.html')
+
+    @@include('parts/index/_design.html')
+
+    @@include('parts/index/_video-popup.html')
+
+    @@include('parts/index/_articles.html', {
+        addClass: "articles--with-company",
+    })
+
+    @@include('parts/_company.html', {
+        addClass: "company--with-articles"
+    })
+
+</main>
+@@include('parts/_footer.html')
+@@include('parts/_bottom.html')

@@ -1,0 +1,60 @@
+@import "abstracts";
+@import "libs/fonts";
+@import "libs/libraries";
+@import "libs/reset";
+@import "global";
+@import "components/header";
+@import "components/footer";
+@import "components/articles";
+@import "components/company";
+@import "components/subscribe-form";
+@import "components/breadcrumbs";
+@import "components/product-list";
+@import "components/aside";
+@import "components/pagination";
+@import "components/filter-nav";
+@import "components/login";
+@import "contact/contact";
+@import "product-details/product-details";
+@import "product-details/product-description";
+@import "product-details/product-related";
+@import "components/gallery-nav";
+@import "components/product-card";
+@import "components/article-card";
+@import "components/design-card";
+@import "index-page/hero";
+@import "index-page/products";
+@import "index-page/advantages";
+@import "index-page/offers";
+@import "index-page/design";
+@import "index-page/video-popup";
+@import "about/about";
+@import "about/privilege";
+@import "about/team";
+@import "blog/writer";
+@import "blog/comments";
+@import "blog/form-comment";
+@import "blog/blog";
+@import "terms/terms";
+
+@media (max-width: $lg + "px") {
+    .advantages,
+    .products,
+    .design,
+    .video-popup,
+    .products__items,
+    .about,
+    .privilege,
+    .team,
+    .top-section,
+    .form-comment,
+    .comments,
+    .terms,
+    .login,
+    .contact__address,
+    .product-details,
+    .product-details__inner,
+    .product-description {
+        margin-bottom: $mb50;
+    }
+}
