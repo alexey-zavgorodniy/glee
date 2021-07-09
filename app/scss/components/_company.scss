@@ -7,6 +7,15 @@
     &__items {
         display: flex;
         justify-content: space-between;
+
+        @include r($xl) {
+            column-gap: 20px;
+        }
+
+        @include r($md) {
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
     }
 
     &__item {
